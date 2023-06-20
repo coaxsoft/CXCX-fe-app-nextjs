@@ -10,6 +10,11 @@ You will need to install these:
 - npm v8.11.0
 
 # Development environment
+
+## Setup form template
+ - run command `npx create-next-app --example https://github.com/coaxsoft/CXCX-fe-app-nextjs <YOUR_APP_NAME>`
+ this will create a new project with all the necessary dependencies and files.
+
 ### Installation ###
 - `npm install`
 - copy env variables
