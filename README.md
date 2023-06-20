@@ -13,7 +13,7 @@ You will need to install these:
 ### Installation ###
 - `npm install`
 - copy env variables
-- run `npm start` to start application in development mode.
+- run `npm run dev` to start application in development mode.
 
 ## Related resources
 - [Production](#)
@@ -26,13 +26,6 @@ TODO other resources
 ## Commands
 
 In the project directory, you can run:
-
-### `npm run dev`
-
-Runs the app in the development mode.<br>
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
 # Test environment
 ### `npm run test`
@@ -63,6 +56,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
+
+### `npm run start`
+
+Runs the app in the production mode.<br>
 
 ### Staging deploy
 TODO describe how to deploy to staging
