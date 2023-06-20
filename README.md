@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PROJECT_NAME
+TODO add project name
 
-## Getting Started
+## Project description
+TODO add project description
 
-First, run the development server:
+## Pre Requirements
+You will need to install these:
+- Node v16.16.0
+- npm v8.11.0
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+# Development environment
+### Installation ###
+- `npm install`
+- copy env variables
+- run `npm start` to start application in development mode.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Related resources
+- [Production](#)
+- [Staging](#)
+- [API Documentation](#)
+- [FrontEnd repository](#)
+- [Backend repository](#)
+TODO other resources
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Commands
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+In the project directory, you can run:
 
-## Learn More
+### `npm run dev`
 
-To learn more about Next.js, take a look at the following resources:
+Runs the app in the development mode.<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Test environment
+### `npm run test`
 
-## Deploy on Vercel
+Launches the test runner.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### `npm run lint`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Checks your code with ESLint.<br>
+
+## Settings
+
+#### `.eslintignore`
+List of files and folders that will be ignored by ESLint.
+
+#### `.eslintrc.js`
+Configuration for ESLint. [See configuration](https://eslint.org/docs/user-guide/configuring)
+
+#### `.jest.config.js`
+Configuration for Jest. [See configuration](https://jestjs.io/docs/en/configuration)
+
+# Deployment instructions
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+### Staging deploy
+TODO describe how to deploy to staging
+
+### Production deploy
+TODO describe how to deploy to production
