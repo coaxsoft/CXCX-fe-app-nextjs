@@ -38,7 +38,7 @@
     "sass": "^1.63.2"
   },
   "pre-commit": [
-    "prettier:check",
+    "prettier:format",
     "lint"
   ]
 }
