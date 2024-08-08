@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, coax]
     steps:
       - name: 'Checkout repository on branch: ${{ github.REF }}'
         uses: actions/checkout@v3
